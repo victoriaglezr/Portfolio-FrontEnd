@@ -1,8 +1,44 @@
 body {
   color: var(--white1); 
   background-color: #202020;
+
 }
 
+/* homepage */
+.homepage {
+  background: linear-gradient(193deg, #ffb6b6e6, #a5f3fbe3);
+  height: 100vh;
+}
+
+.container.c-homepage {
+  height: 100vh;
+}
+.row.r-hp {
+  padding-top: 22vh;
+}
+.name {
+  font-family: times new roman;
+  text-align: right;
+  font-size: 95px;
+  line-height: 80%;
+  margin-right: 79px;
+  border-right: 1px solid white;
+  padding: 75px 0px;
+  padding-right: 89px;
+}
+
+.intro {
+  font-family: cambria;
+  text-align: justify;
+  line-height: 136%;
+  font-size: 14px;
+  padding: 75px 0px;
+  margin-right: 99px;
+  padding-right: 0;
+}
+
+/* colors */
 :root {
     --white: #fff;
 }
+
